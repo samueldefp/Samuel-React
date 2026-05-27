@@ -1,0 +1,46 @@
+.CardJogador {
+  border-radius: 10px;
+  padding: 15px;
+}
+
+#center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.CardJogador img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.CardJogador button {
+  padding: 20px 40px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #eab308 50%, #22c55e 75%, #22c55e 100%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+}
+
+.CardJogador button:hover {
+  background-position: right bottom;
+  border-color: #22c55e;
+  color: #000000;
+}
+
+p{
+    color:black;
+    font-size: 16px;
+}
