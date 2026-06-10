@@ -9,55 +9,85 @@ import luizSeleca from "../assets/luizBrasil.webp";
 import viniReal from "../assets/viniJrReal.jpg";
 import viniSeleca from "../assets/viniJrBrasil.jpg";
 
-const jogadores = {
-  NeymarSantos: {
+const jogadores = [
+  {
+    id: 1,
+    nome: "NeymarSantos",
     evolucao: "NeymarSeleca",
     imagem: neySantos,
+    estagio: 1
   },
 
-  NeymarSeleca: {
+  {
+    id: 2,
+    nome: "NeymarSeleca",
     evolucao: null,
     imagem: neySeleca,
+    estagio: 2
   },
 
-  EndrickLyon: {
+  {
+    id: 3,
+    nome: "EndrickLyon",
     evolucao: "EndrickSeleca",
     imagem: endrickLyon,
+    estagio: 1
   },
 
-  EndrickSeleca: {
+  {
+    id: 4,
+    nome: "EndrickSeleca",
     evolucao: null,
     imagem: endrickSeleca,
+    estagio: 2
   },
 
-  DaniloFogao: {
+  {
+    id: 5,
+    nome: "DaniloFogao",
     evolucao: "DaniloSeleca",
     imagem: daniloFogao,
+    estagio: 1
   },
 
-  DaniloSeleca: {
+  {
+    id: 6,
+    nome: "DaniloSeleca",
     evolucao: null,
     imagem: daniloSeleca,
+    estagio: 2
   },
 
-  LuizZenit: {
+  {
+    id: 7,
+    nome: "LuizZenit",
     evolucao: "LuizSeleca",
     imagem: luizZenit,
+    estagio: 1
   },
 
-  LuizSeleca: {
+  {
+    id: 8,
+    nome: "LuizSeleca",
     evolucao: null,
     imagem: luizSeleca,
+    estagio: 2
   },
 
-  ViniReal: {
+  {
+    id: 9,
+    nome: "ViniReal",
     evolucao: "ViniSeleca",
     imagem: viniReal,
+    estagio: 1
   },
 
-  ViniSeleca: {
+  {
+    id: 10,
+    nome: "ViniSeleca",
     evolucao: null,
     imagem: viniSeleca,
+    estagio: 2
   },
-};
+];
 export default jogadores;
