@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import JogadorCard from "../Components/JogadorCards/JogadorCard";
 import jogadores from "../Data/jogadores";
+import "../App.css";
 
 function Home() {
   const navigate = useNavigate();
@@ -58,6 +59,7 @@ function Home() {
 
   return (
     <>
+    <div className="banner-overlay"></div>
       <h1>Convocados para a Copa</h1>
 
       <h2>Quantidade de cards: {quantidadeCards}</h2>

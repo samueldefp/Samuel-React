@@ -13,12 +13,8 @@
 
 .link-voltar-jogador {
   margin-top: 20px;
-  color: white;
+  background-color: white;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
-}
-
-.link-voltar-jogador:hover {
-  color: yellow;
 }

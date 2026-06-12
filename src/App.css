@@ -112,11 +112,17 @@ code {
 }
 body {
   margin: 0;
-  background-image: url('./assets/estadio.webp');
+  background-image: url('./assets/estadio.png');
   background-size: cover; 
   background-position: center; 
   background-attachment: fixed; 
 }
+
+h1, h2{
+  color: white;
+}
+
+
 
 
 

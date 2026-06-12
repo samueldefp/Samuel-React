@@ -40,7 +40,14 @@
   color: #000000;
 }
 
-p{
-    color:black;
+.convocado{
+    color: green;
     font-size: 16px;
+    font-weight: bold;
 }
+
+.name{
+  color: yellow;
+  font-weight: bold;
+}
+
