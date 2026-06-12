@@ -18,3 +18,7 @@
   font-weight: bold;
   transition: color 0.3s ease;
 }
+
+.link-voltar-jogador:hover{
+  transform: translateY(-5px);
+}

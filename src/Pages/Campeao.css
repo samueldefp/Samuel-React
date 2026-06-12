@@ -25,6 +25,6 @@
   /* border-radius: 50%; */
 }
 
-/* .botao-voltar:hover {
-  background-color: yellow;
-} */
+.botao-voltar:hover {
+  transform: translateY(-5px);
+}

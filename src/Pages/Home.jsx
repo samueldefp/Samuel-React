@@ -59,7 +59,7 @@ function Home() {
 
   return (
     <>
-    <div className="banner-overlay"></div>
+    <main>
       <h1>Convocados para a Copa</h1>
 
       <h2>Quantidade de cards: {quantidadeCards}</h2>
@@ -76,6 +76,7 @@ function Home() {
           />
         ))}
       </section>
+    </main>
     </>
   );
 }
