@@ -1,15 +1,19 @@
-.CardJogador {
-  border-radius: 10px;
-  padding: 15px;
-}
-
 #center {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
+}
+
+.CardJogador {
+  border-radius: 10px;
+  padding: 15px;
+  width: 280px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
 
 .CardJogador img {
@@ -27,7 +31,12 @@
   text-transform: uppercase;
   border: 2px solid #000000;
   border-radius: 8px;
-  background-image: linear-gradient(to right, #eab308 50%, #22c55e 75%, #22c55e 100%);
+  background-image: linear-gradient(
+    to right,
+    #eab308 50%,
+    #22c55e 75%,
+    #22c55e 100%
+  );
   background-size: 200% 100%;
   background-position: left bottom;
   transition: all 0.4s ease-out;
@@ -40,14 +49,13 @@
   cursor: pointer;
 }
 
-.convocado{
-    color: green;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.name{
-  color: yellow;
+.convocado {
+  color: lightgreen;
+  font-size: 16px;
   font-weight: bold;
 }
 
+.name {
+  color: yellow;
+  font-weight: bold;
+}

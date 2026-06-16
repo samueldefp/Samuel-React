@@ -59,24 +59,24 @@ function Home() {
 
   return (
     <>
-    <main>
-      <h1>Convocados para a Copa</h1>
+      <main>
+        <h1>Convocados para a Copa</h1>
 
-      <h2>Quantidade de cards: {quantidadeCards}</h2>
-      <h2>Jogadores já convocados: {quantidadeConvocados}</h2>
+        <h2>Quantidade de cards: {quantidadeCards}</h2>
+        <h2>Jogadores já convocados: {quantidadeConvocados}</h2>
 
-      <section id="center">
-        {listaConvocados.map((jogador) => (
-          <JogadorCard
-            id={jogador.id}
-            nome={jogador.nome}
-            estagio={jogador.estagio}
-            img={jogador.imagem}
-            convocadoCopa={() => convocadoCopa(jogador.nome)}
-          />
-        ))}
-      </section>
-    </main>
+        <section id="center">
+          {listaConvocados.map((jogador) => (
+            <JogadorCard
+              id={jogador.id}
+              nome={jogador.nome}
+              estagio={jogador.estagio}
+              img={jogador.imagem}
+              convocadoCopa={() => convocadoCopa(jogador.nome)}
+            />
+          ))}
+        </section>
+      </main>
     </>
   );
 }
