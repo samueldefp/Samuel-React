@@ -12,8 +12,8 @@ import viniSeleca from "../assets/viniJrBrasil.jpg";
 const jogadores = [
   {
     id: 1,
-    nome: "NeymarSantos",
-    evolucao: "NeymarSeleca",
+    nome: "Neymar",
+    evolucao: "Neymar Seleca",
     imagem: neySantos,
     estagio: 1,
     descricao: "O Menino da Vila em sua fase mágica, abusada e irreverente que parou o Brasil."
@@ -21,7 +21,7 @@ const jogadores = [
 
   {
     id: 2,
-    nome: "NeymarSeleca",
+    nome: "Neymar Seleca",
     evolucao: null,
     imagem: neySeleca,
     estagio: 2,
@@ -30,8 +30,8 @@ const jogadores = [
 
   {
     id: 3,
-    nome: "EndrickLyon",
-    evolucao: "EndrickSeleca",
+    nome: "Endrick",
+    evolucao: "Endrick Seleca",
     imagem: endrickLyon,
     estagio: 1,
     descricao: "A jovem estrela ganhando casca, força e experiência no futebol de clubes europeu."
@@ -39,7 +39,7 @@ const jogadores = [
 
   {
     id: 4,
-    nome: "EndrickSeleca",
+    nome: "Endrick Seleca",
     evolucao: null,
     imagem: endrickSeleca,
     estagio: 2,
@@ -48,8 +48,8 @@ const jogadores = [
 
   {
     id: 5,
-    nome: "DaniloFogao",
-    evolucao: "DaniloSeleca",
+    nome: "Danilo",
+    evolucao: "Danilo Seleca",
     imagem: daniloFogao,
     estagio: 1,
     descricao: "Mostrando pura raça, técnica e liderança tática vestindo a camisa do Botafogo."
@@ -57,7 +57,7 @@ const jogadores = [
 
   {
     id: 6,
-    nome: "DaniloSeleca",
+    nome: "Danilo Seleca",
     evolucao: null,
     imagem: daniloSeleca,
     estagio: 2,
@@ -66,8 +66,8 @@ const jogadores = [
 
   {
     id: 7,
-    nome: "LuizZenit",
-    evolucao: "LuizSeleca",
+    nome: "Luiz",
+    evolucao: "Luiz Seleca",
     imagem: luizZenit,
     estagio: 1,
     descricao: "Destruindo defesas com sua habilidade e visão de jogo no frio do futebol russo."
@@ -75,7 +75,7 @@ const jogadores = [
 
   {
     id: 8,
-    nome: "LuizSeleca",
+    nome: "Luiz Seleca",
     evolucao: null,
     imagem: luizSeleca,
     estagio: 2,
@@ -84,8 +84,8 @@ const jogadores = [
 
   {
     id: 9,
-    nome: "ViniReal",
-    evolucao: "ViniSeleca",
+    nome: "Vini",
+    evolucao: "Vini Seleca",
     imagem: viniReal,
     estagio: 1,
     descricao: "O craque imparável que entorta laterais e decide os maiores jogos pelo Real Madrid."
@@ -93,7 +93,7 @@ const jogadores = [
 
   {
     id: 10,
-    nome: "ViniSeleca",
+    nome: "Vini Seleca",
     evolucao: null,
     imagem: viniSeleca,
     estagio: 2,

@@ -8,19 +8,37 @@
 }
 
 .CardJogador {
-  border-radius: 10px;
-  padding: 15px;
-  width: 280px; 
+  background-color: rgba(22, 23, 29, 0.75);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 24px;
+  width: 280px;
+  
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
+  gap: 14px;
+  
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), 
+              box-shadow 0.3s ease, 
+              border-color 0.3s ease;
+}
+
+.CardJogador:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  border-color: #eab308;
 }
 
 .CardJogador img {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 220px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .CardJogador button {
@@ -58,4 +76,5 @@
 .name {
   color: yellow;
   font-weight: bold;
+  margin-bottom: 10px;
 }

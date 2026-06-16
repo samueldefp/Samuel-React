@@ -69,12 +69,11 @@ h1,
 h2 {
   font-family: var(--heading);
   font-weight: 500;
-  color: var(--text-h);
+  color: white;
 }
 
 h1 {
   font-size: 56px;
-  color: #08060d;
   letter-spacing: -1.68px;
   margin: 32px 0;
   @media (max-width: 1024px) {
@@ -84,10 +83,9 @@ h1 {
 }
 h2 {
   font-size: 24px;
-  color: #08060d;
   line-height: 118%;
   letter-spacing: -0.24px;
-  margin: 0 0 8px;
+  margin-top: -16px;
   @media (max-width: 1024px) {
     font-size: 20px;
   }
@@ -118,9 +116,7 @@ body {
   background-attachment: fixed; 
 }
 
-h1, h2{
-  color: white;
-}
+
 
 
 

@@ -33,7 +33,7 @@ function Campeao() {
       <h2 className="titulo-campeao">Todos os craques foram convocados com sucesso.</h2>
       
       <Link to="/Samuel-React/" className="botao-voltar">
-        <img src={botaoVoltar} alt="botaoVolta" width={200} height={100} />
+        <img src={botaoVoltar} alt="Voltar para a pagina inicial" width={200} height={100} />
       </Link>
     </div>
   );
