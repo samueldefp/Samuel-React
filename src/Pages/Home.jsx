@@ -5,6 +5,14 @@ import jogadores from "../Data/jogadores";
 import "../App.css";
 
 function Home() {
+
+  // useEffect(() => {
+  //   window.dataLayer.push({
+  //     event: "test"
+  //   })
+  // })
+
+
   const navigate = useNavigate();
 
   const jogadoresEstagioInicial = jogadores.filter(
