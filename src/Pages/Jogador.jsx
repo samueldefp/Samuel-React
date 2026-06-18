@@ -12,6 +12,7 @@ function Jogador() {
   }
 
   return (
+    <div className="container-principal">
     <div className="container-jogador">
       <h1>{jogador.nome}</h1>
 
@@ -24,11 +25,11 @@ function Jogador() {
         alt={jogador.nome}
         className="imagem-detalhe"
       />
-
-      <Link to="/Samuel-React/" className="link-voltar-jogador">
-        <img src={botaoVolta} alt="botaoVolta" width={200} height={100} />
-      </Link>
     </div>
+      <Link to="/Samuel-React/" className="link-voltar-jogador">
+        <img src={botaoVolta} alt="Voltar para pagina inicial" width={200} height={100} />
+      </Link>
+  </div>
   );
 }
 

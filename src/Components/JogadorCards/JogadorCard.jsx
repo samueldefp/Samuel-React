@@ -25,9 +25,11 @@ function JogadorCard({ nome, img, estagio, convocadoCopa, id }) {
       {/* <p className='convocado'>Convocado? {estagio === 1 ? "Não" : "Sim"}</p> */}
       <button
         onClick={() => {
+          // if (estagio > 1) return;
           convocadoCopa(nome);
           registrarClick(`Convocar ${nome}`);
         }}
+        disable ={ estagio > 1}
       >
         {estagio === 1 ? `CONVOCAR ${nome}` : `${nome} CONVOCADO`}
       </button>

@@ -6,13 +6,6 @@ import "../App.css";
 
 function Home() {
 
-  // useEffect(() => {
-  //   window.dataLayer.push({
-  //     event: "test"
-  //   })
-  // })
-
-
   const navigate = useNavigate();
 
   const jogadoresEstagioInicial = jogadores.filter(
@@ -32,7 +25,7 @@ function Home() {
     if (quantidadeCards > 0 && quantidadeConvocados === quantidadeCards) {
       setTimeout(() => {
         navigate("/Samuel-React/campeao");
-      }, 600);
+      }, 100);
     }
   }, [quantidadeConvocados, quantidadeCards, navigate]);
 

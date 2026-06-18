@@ -51,6 +51,8 @@
   border-radius: 8px;
   background-image: linear-gradient(
     to right,
+    #002776 0%,
+    #002776 25%,
     #eab308 50%,
     #22c55e 75%,
     #22c55e 100%
@@ -78,3 +80,12 @@
   font-weight: bold;
   margin-bottom: 10px;
 }
+
+/* .CardJogador button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-image: none;
+  background-color: #4a4a4a;
+  border-color: #4a4a4a;
+  color: #aaa;
+} */
